@@ -6,7 +6,6 @@ export function handleDrop(product, cart) {
   cart.appendChild(newItem);
   itemCount++;
 
-  // Обновление стилей для скрытия продукта на полке
   updateProductStyles(product);
 
   limitCartItemsDisplay(cart);
