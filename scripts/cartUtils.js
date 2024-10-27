@@ -78,10 +78,24 @@ export function resetProductStyles(product) {
 }
 
 // Function to limit the display of cart items to the last three
+// Функция для ограничения отображения товаров в корзине до последних трех
 export function limitCartItemsDisplay(cart) {
   const cartItems = cart.querySelectorAll(".cart-item");
   cartItems.forEach((item, index) => {
-    item.style.display = index >= cartItems.length - 3 ? "block" : "none";
+    if (index >= cartItems.length - 3) {
+      item.style.display = "block";
+
+      // Устанавливаем z-index для каждого элемента
+      if (index % 2 === 0) {
+        // Если индекс четный
+        item.style.zIndex = "1"; // Устанавливаем z-index ниже
+      } else {
+        item.style.zIndex = "2"; // Устанавливаем z-index выше
+      }
+    } else {
+      item.style.display = "none";
+      item.style.zIndex = ""; // Сброс z-index для скрытых элементов
+    }
   });
 }
 
