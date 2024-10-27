@@ -41,7 +41,7 @@ export function applyImageEffects(img, altText) {
     варенья: "rotate(2deg) translateY(5px)",
     сыра: "rotate(15deg) translateY(9px)",
     мяса: "rotate(30deg) translateY(15px) scale(0.8)",
-    курицы: "translateY(15px) rotate(-30deg) scale(0.8)",
+    курицы: "translateY(15px) scale(0.8) translateX(-25px) rotate(70deg)",
     чипсов: "scale(0.8) rotate(-40deg) translateX(-10px)",
     ананаса: "rotate(7deg) translate(8px)",
     бананов: "rotate(-27deg) translateY(6px) scale(1.05)",
