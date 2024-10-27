@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Продуктовая Витрина</title>
+    <meta
+      name="description"
+      content="Продуктовая Витрина - онлайн-витрина, где вы можете выбирать продукты и добавлять их в корзину для покупки."
+    />
+    <meta
+      name="keywords"
+      content="Продукты, витрина, онлайн магазин, покупка продуктов, корзина товаров"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Продуктовая Витрина</h1>
+    </header>
+    <main class="app-container">
+      <section class="display" aria-labelledby="display-heading">
+        <h2 id="display-heading" class="visually-hidden">
+          Витрина с продуктами
+        </h2>
+        <img
+          src="images/display.svg"
+          alt="Витрина с продуктами"
+          class="display-img"
+        />
+      </section>
+      <aside class="cart" aria-labelledby="cart-heading">
+        <h2 id="cart-heading" class="visually-hidden">Корзина</h2>
+        <img src="images/card.svg" alt="Изображение корзины" class="cart-img" />
+        <div class="cart-items" aria-live="polite"></div>
+      </aside>
+    </main>
+    <footer>
+      <p>© 2024 Продуктовая Витрина</p>
+    </footer>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
