@@ -1,59 +1,59 @@
-# Продуктовая Витрина
+# Product Showcase
 
-**Продуктовая Витрина** — это онлайн-витрина, где пользователи могут выбирать продукты и добавлять их в корзину для дальнейшей покупки. Проект реализован с использованием JavaScript, HTML и CSS и поддерживает функционал drag-and-drop как для устройств с тачскрином, так и для настольных компьютеров.
+**Product Showcase** is an online storefront where users can select products and add them to their cart for future purchase. This project is implemented using JavaScript, HTML, and CSS and supports drag-and-drop functionality for both touchscreen and desktop devices.
 
-## Оглавление
+## Table of Contents
 
-- [Описание проекта](#описание-проекта)
-- [Функциональные возможности](#функциональные-возможности)
-- [Технологии](#технологии)
-- [Структура проекта](#структура-проекта)
-- [Установка и запуск](#установка-и-запуск)
-- [Автор](#автор)
+- [Project Description](#project-description)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Project Structure](#project-structure)
+- [Installation and Launch](#installation-and-launch)
+- [Author](#author)
 
-## Описание проекта
+## Project Description
 
-Продуктовая Витрина — это простое веб-приложение для визуального представления продуктов с возможностью перетаскивания товаров в корзину. Пользователь может выбрать понравившиеся продукты, переместить их в корзину и увидеть обновленное состояние корзины. Данный проект может быть полезен как заготовка для создания более сложных интерфейсов онлайн-магазинов или продуктовых приложений.
+Product Showcase is a simple web application for visually displaying products with the option to drag items into a cart. Users can select products, move them to the cart, and view the cart’s updated contents. This project can serve as a foundation for creating more complex interfaces for online stores or product-based applications.
 
-## Функциональные возможности
+## Features
 
-- **Drag-and-drop**: поддерживается перетаскивание продуктов в корзину как мышью, так и касанием (тачскрин).
-- **Различные анимации** для каждого продукта на витрине.
-- **Эффекты при добавлении в корзину**: изменяется внешний вид товаров, и они исчезают с витрины.
-- **Проверка количества товаров**: при добавлении определенного количества товаров (например, 3) в корзину отображается кнопка для перехода к оформлению покупки.
-- **Адаптивность**: проект оптимизирован для работы как на мобильных устройствах, так и на настольных компьютерах.
+- **Drag-and-drop**: Supports product dragging into the cart with both mouse and touch interactions.
+- **Various animations** for each product displayed on the showcase.
+- **Cart addition effects**: Products change appearance and disappear from the showcase when added to the cart.
+- **Product quantity check**: Once a certain quantity of items (e.g., 3) is added, a button appears to proceed to checkout.
+- **Responsive design**: The project is optimized for both mobile and desktop use.
 
-## Технологии
+## Technologies
 
 - HTML5, CSS3, JavaScript (ES6+)
-- Анимации CSS
-- Drag-and-drop для устройств с мышью и тачскрином
-- Модули JavaScript
+- CSS Animations
+- Drag-and-drop for mouse and touchscreen devices
+- JavaScript Modules
 
-## Структура проекта
+## Project Structure
 
-- **index.html**: Главная HTML-страница проекта, включает витрину продуктов и корзину.
-- **styles/main.css**: Основные стили проекта, включая стили для витрины и корзины.
-- **index.js**: Главный JavaScript файл, где происходит инициализация витрины и функционала drag-and-drop.
-- **scripts/shelf-section.js**: Модуль, создающий секцию витрины с продуктами.
-- **scripts/dragAndDrop.js**: Модуль, реализующий функционал drag-and-drop, поддерживающий как мышь, так и тачскрин.
-- **scripts/cartUtils.js**: Модуль для обработки добавления продуктов в корзину, анимации, а также применения эффектов к изображениям продуктов.
+- **index.html**: The main HTML page of the project, includes the product showcase and cart.
+- **styles/main.css**: The main styles for the project, including styles for the showcase and cart.
+- **index.js**: The main JavaScript file, where the showcase and drag-and-drop functionality are initialized.
+- **scripts/shelf-section.js**: A module that creates the product showcase section.
+- **scripts/dragAndDrop.js**: A module that implements the drag-and-drop functionality, supporting both mouse and touch interactions.
+- **scripts/cartUtils.js**: A module for handling the addition of products to the cart, animations, and applying effects to product images.
 
-## Установка и запуск
+## Installation and Launch
 
-1. Скачайте или клонируйте репозиторий:
-   git clone https://github.com/ваш-пользователь/продуктовая-витрина.git
-
-2. Откройте файл `index.html` в браузере для просмотра проекта.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/product-showcase.git
+2. Open the index.html file in your browser to view the project.
    
-Проект не требует дополнительных зависимостей и библиотек для работы, поэтому вы можете сразу запустить его локально.
+The project does not require additional dependencies or libraries to run, so you can start it locally right away.
 
-## Автор  
-Александр Барабанов
+## Author 
+Aleksandr Barabanov
 
 
-**Благодарность**  
-Особая благодарность Яндекс Крауд за предоставление тестового задания и макета, которые помогли в создании этого проекта.
+**Acknowledgments**  
+Special thanks to Yandex Crowd for providing the test task and mockup, which helped in the creation of this project.
 
 
 ## Contacts
@@ -74,4 +74,4 @@
 </div>
 
 
-© 2024 Продуктовая Витрина
+© 2024 Product Showcase
